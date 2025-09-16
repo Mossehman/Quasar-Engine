@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\C++\Quasar Engine\bin\Debug-x64\Quasar Engine\Quasar Engine.dll</FullPath>
+      <FullPath>D:\C++\Quasar Engine\bin\Debug-x64\QuasarEngine\QuasarEngine.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
       <FullPath>D:\C++\Quasar Engine\bin\Debug-x64\Sandbox\Sandbox.exe</FullPath>

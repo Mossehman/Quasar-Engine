@@ -2,13 +2,14 @@
 #include <QuasarEngine.h>
 
 
+
 class SandboxApp : public qsr::Application {
 public:
 	SandboxApp() {
-		std::cout << "Hello world!" << std::endl;
+		QSR_INFO("Hello world!");
 	}
 	~SandboxApp() {
-		std::cout << "Goodbye world!" << std::endl;
+		QSR_FATAL("Goodbye world!");
 	}
 
 };

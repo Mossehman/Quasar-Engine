@@ -4,6 +4,9 @@
 extern qsr::Application* qsr::CreateApplication();
 
 int main(int argc, char** argv) {
+
+	qsr::Logger::Init();
+
 	qsr::Application* application = qsr::CreateApplication();
 	application->Start();
 	application->Run();

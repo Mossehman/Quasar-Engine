@@ -1,6 +1,7 @@
 #pragma once
 #include "Macros.h"
 
+
 namespace qsr {
 	class QSR_API Application 
 	{

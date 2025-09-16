@@ -8,5 +8,7 @@
 #include <stdio.h>
 
 // Engine libraries
+#include "Logger.h"
 #include "Application.h"
+
 #include "Entrypoint.hpp"

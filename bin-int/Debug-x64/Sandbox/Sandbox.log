@@ -1,1 +1,6 @@
-﻿  Sandbox.vcxproj -> D:\C++\Quasar Engine\bin\Debug-x64\Sandbox\Sandbox.exe
+﻿  main.cpp
+D:\C++\Quasar Engine\Quasar Engine\src\Logger.h(15,42): warning C4251: 'qsr::Logger::coreLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'qsr::Logger'
+D:\C++\Quasar Engine\Quasar Engine\libs\spdlog-1.x\include\spdlog\details\registry.h(33,31): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+D:\C++\Quasar Engine\Quasar Engine\src\Logger.h(16,42): warning C4251: 'qsr::Logger::clientLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'qsr::Logger'
+D:\C++\Quasar Engine\Quasar Engine\libs\spdlog-1.x\include\spdlog\details\registry.h(33,31): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+  Sandbox.vcxproj -> D:\C++\Quasar Engine\bin\Debug-x64\Sandbox\Sandbox.exe
